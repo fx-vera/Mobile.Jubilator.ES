@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0-ios</TargetFramework>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">13.0</SupportedOSPlatformVersion>
+		<OutputType>Exe</OutputType>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseMaui>true</UseMaui>
+		<TargetFrameworks>net9.0-ios</TargetFrameworks>
+		<SignAssembly>True</SignAssembly>
+		<AssemblyOriginatorKeyFile>C:\Workspaces\tucodev\MAUI\Jubilator\Tucodev.Apps.snk</AssemblyOriginatorKeyFile>
+		<Company>$(Authors) fx-vera</Company>
+		<Description>Calcula lo que te queda para tu jubilación.</Description>
+		<Copyright>2024 fx-vera (tucodev)</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0-preview.2.24128.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Jubilator.Mobile\Jubilator.Mobile.csproj" />
+	</ItemGroup>
+
+</Project>

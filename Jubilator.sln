@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jubilator.Mobile", "Jubilator.Mobile\Jubilator.Mobile\Jubilator.Mobile.csproj", "{C44B7991-9FAB-4E93-950B-67CA96F1CFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jubilator.Mobile.Droid", "Jubilator.Mobile\Jubilator.Mobile.Droid\Jubilator.Mobile.Droid.csproj", "{92CA4646-1187-4FAE-9864-3F0B46B6BFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jubilator.Mobile.iOS", "Jubilator.Mobile\Jubilator.Mobile.iOS\Jubilator.Mobile.iOS.csproj", "{9461BC28-ED7D-4E27-A7FC-D522EF181BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C44B7991-9FAB-4E93-950B-67CA96F1CFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44B7991-9FAB-4E93-950B-67CA96F1CFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44B7991-9FAB-4E93-950B-67CA96F1CFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44B7991-9FAB-4E93-950B-67CA96F1CFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CA4646-1187-4FAE-9864-3F0B46B6BFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CA4646-1187-4FAE-9864-3F0B46B6BFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CA4646-1187-4FAE-9864-3F0B46B6BFCA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{92CA4646-1187-4FAE-9864-3F0B46B6BFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CA4646-1187-4FAE-9864-3F0B46B6BFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CA4646-1187-4FAE-9864-3F0B46B6BFCA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9461BC28-ED7D-4E27-A7FC-D522EF181BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9461BC28-ED7D-4E27-A7FC-D522EF181BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9461BC28-ED7D-4E27-A7FC-D522EF181BCF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9461BC28-ED7D-4E27-A7FC-D522EF181BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9461BC28-ED7D-4E27-A7FC-D522EF181BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9461BC28-ED7D-4E27-A7FC-D522EF181BCF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D648083F-255A-4816-AAD0-5C66C41881A0}
+	EndGlobalSection
+EndGlobal
